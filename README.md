@@ -4,7 +4,7 @@ Submitted by: **Brandon Delgado**
 
 About this web app: **Game Night Shelf is a listicle of six fictional board games. Browse illustrated cards and open each game's detail page to view its category, player count, play time, price, description, cover image, submitter, and ID.**
 
-Time spent: **TODO: enter your time** hours
+Time spent: **4** hours
 
 ## Required Features
 
