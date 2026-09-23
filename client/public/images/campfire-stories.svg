@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#a4593e"/>
+  <circle cx="40" cy="50" r="125" fill="#ffe0a5" opacity=".07"/>
+  <circle cx="570" cy="370" r="155" fill="#ffe0a5" opacity=".09"/>
+  <rect x="125" y="26" width="350" height="350" rx="9" fill="#000" opacity=".15"/>
+  <rect x="116" y="18" width="350" height="350" rx="9" fill="#ffe0a5"/>
+  <rect x="129" y="31" width="324" height="324" rx="4" fill="none" stroke="#a4593e" stroke-width="2"/>
+  <text x="291" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" letter-spacing="4" fill="#a4593e">GAME NIGHT COLLECTION</text>
+  <circle cx="291" cy="165" r="66" fill="#a4593e"/>
+  <text x="291" y="188" text-anchor="middle" font-family="Segoe UI Symbol, Arial, sans-serif" font-size="70" fill="#ffe0a5">♨</text>
+  <text x="291" y="279" text-anchor="middle" font-family="Georgia, serif" font-weight="bold" font-size="31" letter-spacing="2" fill="#a4593e">CAMPFIRE</text>
+  <text x="291" y="314" text-anchor="middle" font-family="Georgia, serif" font-size="28" letter-spacing="4" fill="#a4593e">STORIES</text>
+</svg>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game details — Game Night Shelf</title>
+    <link rel="stylesheet" href="/pico.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <script defer src="/scripts/header.js"></script>
+    <script defer src="/scripts/game.js"></script>
+  </head>
+  <body>
+    <header class="container"></header>
+    <main class="container">
+      <a class="back-link" href="/">← Back to the shelf</a>
+      <p id="message" role="status">Loading game…</p>
+      <div id="game-content" class="game-info" hidden>
+        <div class="image-container"><img id="image" alt=""></div>
+        <div class="game-details">
+          <p id="category" class="eyebrow"></p>
+          <h1 id="name"></h1>
+          <p id="description"></p>
+          <p id="players"></p>
+          <p id="playTime"></p>
+          <p id="price"></p>
+          <p id="submittedBy"></p>
+          <p id="gameId"></p>
+          <a id="image-link">View cover image</a>
+        </div>
+      </div>
+      <noscript>Please enable JavaScript to view game details.</noscript>
+    </main>
+    <footer class="container">Game Night Shelf · A student project. All games and prices are fictional.</footer>
+  </body>
+</html>

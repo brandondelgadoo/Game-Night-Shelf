@@ -1,0 +1,16 @@
+{
+  "name": "game-night-shelf-client",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@picocss/pico": "^2.1.1"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}

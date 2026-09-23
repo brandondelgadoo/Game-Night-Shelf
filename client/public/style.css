@@ -1,0 +1,192 @@
+:root {
+  --pico-font-family: Arial, Helvetica, sans-serif;
+  --pico-background-color: #faf7ef;
+  --pico-color: #293c37;
+  --pico-primary: #356250;
+  --pico-primary-background: #356250;
+}
+
+body {
+  background: #faf7ef;
+  color: #293c37;
+}
+
+.container {
+  max-width: 1120px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+header nav {
+  align-items: center;
+  border-bottom: 1px solid #dcded3;
+  padding: 24px 0;
+}
+
+.site-title {
+  color: #293c37;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:last-child {
+  font-size: 14px;
+}
+
+.intro {
+  background: #eee8d7;
+  border-radius: 12px;
+  margin: 32px 0 48px;
+  padding: 48px;
+}
+
+.eyebrow {
+  color: #67775c;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h1, h2, h3 {
+  color: #293c37;
+  font-family: Georgia, serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.intro p:last-child {
+  color: #606c60;
+  font-size: 17px;
+  margin-bottom: 0;
+}
+
+.collection-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.collection-heading h2 {
+  margin: 0;
+}
+
+.collection-heading span {
+  color: #6e776c;
+  font-size: 13px;
+}
+
+.game-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.game-card {
+  background: #fffdf7;
+  border: 1px solid #dfdfd2;
+  border-radius: 10px;
+  box-shadow: none;
+  flex: 1 1 280px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.game-card img {
+  display: block;
+  width: 100%;
+}
+
+.card-details {
+  padding: 24px;
+}
+
+.card-details h3 {
+  font-size: 25px;
+  margin-bottom: 18px;
+}
+
+.card-details p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.card-details .eyebrow {
+  font-size: 11px;
+}
+
+.card-details a {
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+footer {
+  color: #737b70;
+  font-size: 12px;
+  margin-top: 48px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.back-link {
+  display: inline-block;
+  margin: 32px 0;
+}
+
+.game-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.game-info[hidden] {
+  display: none;
+}
+
+.image-container, .game-details {
+  flex: 1;
+}
+
+.image-container img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.game-details h1 {
+  font-size: 40px;
+}
+
+.game-details p {
+  font-size: 16px;
+}
+
+.not-found {
+  padding-top: 100px;
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+  .site-title {
+    font-size: 18px;
+  }
+
+  .intro {
+    padding: 28px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  .collection-heading, .game-info {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
