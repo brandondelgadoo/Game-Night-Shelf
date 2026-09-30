@@ -13,8 +13,8 @@ The following **required** functionality is completed:
 <!-- Make sure to check off completed functionality below -->
 - [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
 - [x] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
-  - [ ] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
-  - [ ]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
+  - [x] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+  - [x]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
 
 
 The following **optional** features are implemented:
@@ -34,7 +34,7 @@ Here's a walkthrough of implemented required features:
 
 <img src="docs/walkthrough-part2.gif" title="Video Walkthrough" width="900" alt="Video walkthrough of Game Night Shelf showing the Render database, the games table in psql, and the app" />
 
-GIF created with **ScreenToGif**
+GIF created with **Chrome screenshots, a psql console capture, and gifenc**. The caption bar above each frame shows the page URL or what is on screen; it is added only for the recording and is not part of the app.
 
 ## Notes
 
