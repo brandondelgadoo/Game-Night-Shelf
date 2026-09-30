@@ -14,9 +14,9 @@ const renderGame = async () => {
       document.getElementById('category').textContent = game.category;
       document.getElementById('description').textContent = game.description;
       document.getElementById('players').textContent = 'Players: ' + game.players;
-      document.getElementById('playTime').textContent = 'Play time: ' + game.playTime;
+      document.getElementById('playTime').textContent = 'Play time: ' + game.playtime;
       document.getElementById('price').textContent = 'Price: ' + game.price;
-      document.getElementById('submittedBy').textContent = 'Submitted by: ' + game.submittedBy;
+      document.getElementById('submittedBy').textContent = 'Submitted by: ' + game.submittedby;
       document.getElementById('gameId').textContent = 'Game ID: ' + game.id;
       document.getElementById('image-link').href = game.image;
       document.getElementById('game-content').hidden = false;

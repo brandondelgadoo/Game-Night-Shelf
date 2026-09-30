@@ -35,7 +35,7 @@ const renderGames = async () => {
         details.appendChild(players);
 
         const time = document.createElement('p');
-        time.textContent = 'Play time: ' + game.playTime;
+        time.textContent = 'Play time: ' + game.playtime;
         details.appendChild(time);
 
         const price = document.createElement('p');
