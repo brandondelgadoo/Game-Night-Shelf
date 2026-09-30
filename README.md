@@ -4,7 +4,7 @@ Submitted by: **Brandon Delgado**
 
 About this web app: **Game Night Shelf is a listicle of six fictional board games, now served from a PostgreSQL database hosted on Render. Browse illustrated cards and open each game's detail page to view its category, player count, play time, price, description, cover image, submitter, and ID.**
 
-Time spent: **X** hours
+Time spent: **5** hours
 
 ## Required Features
 
